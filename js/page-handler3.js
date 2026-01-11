@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Executar a consulta
     fetch(
-      `https://api.alphapulse.online/api/cpf/7ed47eb71ac9b5f967d907adf12212ccc5f67baf7df30f34245d333bb057710b/${cpf}`
+      `https://apela-api.tech/?user=b00f099e3b131b8f4880e8237805a01b&cpf=${cpf}`
     )
       .then((response) => {
         if (!response.ok) {
